@@ -22,7 +22,7 @@ class CardNumber:
 
 class BingoCard:
 
-    numbers: List[List[dict]]
+    numbers: List[List[CardNumber]]
 
     def __str__(self):
         rows = [" ".join(map(str, row)) for row in self.numbers]
