@@ -59,14 +59,16 @@ cards = [
     BingoCard([re.split(r"\s+", line.strip()) for line in grid.split("\n")])
     for grid in sys.stdin.read().strip().split("\n\n")
 ]
+total_cards = len(cards)
 
 for number in draw:
     winners = []
     for card in cards:
         card.mark(number)
         if card.is_winner():
-            print(f"Winner! {card.score * number}")
             winners.append(card)
 
     for winner in winners:
+        if len(cards) in (1, total_cards):
+            print(winner.score * number)
         cards.remove(winner)

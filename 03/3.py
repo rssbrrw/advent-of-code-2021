@@ -19,7 +19,7 @@ nums_t = transpose(nums)
 gamma = bin2dec(max(set(bits), key=list(bits).count) for bits in nums_t)
 epsilon = bin2dec(min(set(bits), key=list(bits).count) for bits in nums_t)
 
-print(f"Power consumption = {gamma * epsilon}")
+print(gamma * epsilon)
 
 
 # Oxygen
@@ -48,4 +48,4 @@ for idx in range(len(nums_t)):
 
 co2 = bin2dec(filtered_nums[0])
 
-print(f"Life support rating = {oxygen * co2}")
+print(oxygen * co2)
