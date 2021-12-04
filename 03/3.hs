@@ -26,15 +26,15 @@ taskTwo ss = oxygen ss * co2 ss
 -- | For a matrix and index i, return only the rows from the matrix
 --   whose element at i is the most common at that index
 filterMostCommonAtIndex :: [String] -> Int -> [String]
-filterMostCommonAtIndex ss i = filterForIndex ss i mostCommon
+filterMostCommonAtIndex = filterForIndex mostCommon
 
 -- | For a matrix and index i, return only the rows from the matrix
 --   whose element at i is the least common at that index
 filterLeastCommonAtIndex :: [String] -> Int -> [String]
-filterLeastCommonAtIndex ss i = filterForIndex ss i leastCommon
+filterLeastCommonAtIndex = filterForIndex leastCommon
 
-filterForIndex :: [String] -> Int -> (String -> Char) -> [String]
-filterForIndex ss i func = filter (\w -> (w !! i) == func (transpose ss !! i)) ss
+filterForIndex :: (String -> Char) -> [String] -> Int -> [String]
+filterForIndex func ss i = filter (\w -> (w !! i) == func (transpose ss !! i)) ss
 
 main = do
   input <- getContents
