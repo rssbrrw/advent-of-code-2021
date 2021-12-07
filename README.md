@@ -8,8 +8,8 @@ Day | Challenge | Solution(s)
 3 | [Binary Diagnostic](https://adventofcode.com/2021/day/3) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/03/3.py), [Haskell](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/03/3.hs)
 4 | [Giant Squid](https://adventofcode.com/2021/day/4) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/04/4.py)
 5 | [Hydrothermal Venture](https://adventofcode.com/2021/day/5) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/05/5.py)
-6 | [Lanternfish](https://adventofcode.com/2021/day/6) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/06/6.py) |
-7 | | |
+6 | [Lanternfish](https://adventofcode.com/2021/day/6) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/06/6.py)
+7 | [The Treachery of Whales](https://adventofcode.com/2021/day/7)| [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/07/7.py)
 8 | | |
 9 | | |
 10 | | |
