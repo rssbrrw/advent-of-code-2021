@@ -10,7 +10,7 @@ Day | Challenge | Solution(s)
 5 | [Hydrothermal Venture](https://adventofcode.com/2021/day/5) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/05/5.py)
 6 | [Lanternfish](https://adventofcode.com/2021/day/6) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/06/6.py)
 7 | [The Treachery of Whales](https://adventofcode.com/2021/day/7)| [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/07/7.py)
-8 | | |
+8 | [Seven Segment Search](https://adventofcode.com/2021/day/8) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/08/8.py)
 9 | | |
 10 | | |
 11 | | |
