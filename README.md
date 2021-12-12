@@ -12,8 +12,8 @@ Day | Challenge | Solution(s)
 8 | [Seven Segment Search](https://adventofcode.com/2021/day/8) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/08/8.py)
 9 | [Smoke Basin](https://adventofcode.com/2021/day/9) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/09/9.py)
 10 | [Syntax Scoring](https://adventofcode.com/2021/day/10) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/10/10.py)
-11 | [Dumbo Octopus](https://adventofcode.com/2021/day/10) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/11/11.py)
-12 | | |
+11 | [Dumbo Octopus](https://adventofcode.com/2021/day/11) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/11/11.py)
+12 | [Passage Pathing](https://adventofcode.com/2021/day/12) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/12/12.py)
 13 | | |
 14 | | |
 15 | | |
