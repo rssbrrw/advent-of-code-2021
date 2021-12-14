@@ -15,7 +15,7 @@ Day | Challenge | Solution(s)
 11 | [Dumbo Octopus](https://adventofcode.com/2021/day/11) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/11/11.py)
 12 | [Passage Pathing](https://adventofcode.com/2021/day/12) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/12/12.py)
 13 | [Transparent Origami](https://adventofcode.com/2021/day/13) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/13/13.py)
-14 | | |
+14 | [Extended Polymerization](https://adventofcode.com/2021/day/14) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/14/14.py)
 15 | | |
 16 | | |
 17 | | |
