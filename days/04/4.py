@@ -1,6 +1,6 @@
 import re
 import sys
-from typing import List
+from typing import List, Union
 
 
 def transpose(matrix: List[List]) -> List[List]:
@@ -28,7 +28,7 @@ class BingoCard:
         rows = [" ".join(map(str, row)) for row in self.numbers]
         return "\n".join(rows)
 
-    def __init__(self, numbers: List[List[int]]):
+    def __init__(self, numbers: List[List[Union[str, int]]]):
         self.numbers = [[CardNumber(int(number)) for number in row] for row in numbers]
         self.size = len(self.numbers)
 
@@ -43,13 +43,8 @@ class BingoCard:
         return sum(n.value for row in self.numbers for n in row if not n.marked)
 
     def is_winner(self) -> bool:
-        return (
-            # Horizontal
-            any(all(n.marked for n in numbers) for numbers in self.numbers)
-            # Vertical
-            or any(
-                all(n.marked for n in numbers) for numbers in transpose(self.numbers)
-            )
+        return any(all(n.marked for n in numbers) for numbers in self.numbers) or any(
+            all(n.marked for n in numbers) for numbers in transpose(self.numbers)
         )
 
 

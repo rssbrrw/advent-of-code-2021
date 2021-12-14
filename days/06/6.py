@@ -1,16 +1,16 @@
 import sys
 from collections import defaultdict
-from typing import List
+from typing import DefaultDict, List
 
 fishies = list(map(int, sys.stdin.readline().split(",")))
 
 
-def days_fishy_created(from_day: int, fish_value: int = 8) -> List[int]:
+def days_fishy_created(from_day: int, fish_value: int = 8) -> range:
     return range(from_day - fish_value - 1, -1, -7)
 
 
 def how_many_fishies(starting_fishies: List[int], after_days: int) -> int:
-    fishies_created_per_day = defaultdict(int)
+    fishies_created_per_day: DefaultDict = defaultdict(int)
 
     for fishy in starting_fishies:
         for i in days_fishy_created(after_days, fishy):

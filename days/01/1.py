@@ -1,4 +1,5 @@
 import sys
+
 from boltons.iterutils import pairwise, windowed
 
 ip = [int(x) for x in sys.stdin]

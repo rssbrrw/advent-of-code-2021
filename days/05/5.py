@@ -1,7 +1,7 @@
 import sys
 from collections import defaultdict
 from itertools import cycle
-from typing import DefaultDict, List, NewType, Tuple
+from typing import DefaultDict, Iterable, List, NewType, Tuple
 
 Map = NewType("Map", DefaultDict[int, DefaultDict[int, int]])
 Point = NewType("Point", Tuple[int, int])
@@ -10,9 +10,9 @@ Point = NewType("Point", Tuple[int, int])
 def parse_input(ip: str) -> List[Tuple[Point, Point]]:
     pairs = []
     for line in ip.strip().split("\n"):
-        start_str, end_str = line.split(" -> ")
-        start = tuple(map(int, start_str.split(",")))
-        end = tuple(map(int, end_str.split(",")))
+        (x1, y1), (x2, y2) = map(lambda w: w.split(","), line.split(" -> "))
+        start = Point((int(x1), int(y1)))
+        end = Point((int(x2), int(y2)))
         pairs.append((start, end))
     return pairs
 
@@ -30,8 +30,8 @@ def draw_line(
     y_step = y2 > y1 or -1
     y_end = y2 + y_step
 
-    x_range = range(x1, x2 + 1)
-    y_range = range(y1, y_end, y_step)
+    x_range: Iterable[int] = range(x1, x2 + 1)
+    y_range: Iterable[int] = range(y1, y_end, y_step)
 
     # For horizontal/vertical lines, repeat the shared coordinate
     if x1 == x2:
@@ -50,7 +50,7 @@ def count_dangerous_points(grid: Map) -> int:
 
 
 def map_vents(pairs: List[Tuple[Point, Point]], include_diagonals=True):
-    vent_counts: Map = defaultdict(lambda: defaultdict(lambda: 0))
+    vent_counts: Map = Map(defaultdict(lambda: defaultdict(lambda: 0)))
     for pair in pairs:
         draw_line(vent_counts, pair[0], pair[1], include_diagonals)
     return vent_counts
