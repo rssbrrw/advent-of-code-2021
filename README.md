@@ -16,7 +16,7 @@ Day | Challenge | Solution(s)
 12 | [Passage Pathing](https://adventofcode.com/2021/day/12) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/days/12/12.py)
 13 | [Transparent Origami](https://adventofcode.com/2021/day/13) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/days/13/13.py)
 14 | [Extended Polymerization](https://adventofcode.com/2021/day/14) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/days/14/14.py)
-15 | | |
+15 | [Chiton](https://adventofcode.com/2021/day/15) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/days/15/15.py)
 16 | | |
 17 | | |
 18 | | |
