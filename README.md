@@ -19,7 +19,7 @@ Day | Challenge | Solution(s)
 15 | [Chiton](https://adventofcode.com/2021/day/15) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/days/15/15.py)
 16 | [Packet Decoder](https://adventofcode.com/2021/day/16) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/days/16/16.py)
 17 | [Trick Shot](https://adventofcode.com/2021/day/17) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/days/17/17.py)
-18 | | |
+18 | [Snailfish](https://adventofcode.com/2021/day/18) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/days/18/18.py)
 19 | | |
 20 | | |
 21 | | |
