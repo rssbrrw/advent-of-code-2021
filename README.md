@@ -1,10 +1,10 @@
-# :christmas_tree::calendar: [Advent of Code 2021](https://adventofcode.com/2021) :calendar::christmas_tree:
+# :christmas_tree::calendar: [Advent of Code 2021](https://adventofcode.com/2021) :calendar::christmas_treeh
 
 Day | Challenge | Solution(s)
 --- | --- | ---
-1 | [Sonar Sweep](https://adventofcode.com/2021/day/1) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/days/01/1.py), [Haskell](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/01/1.hs)
-2 | [Dive!](https://adventofcode.com/2021/day/2) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/days/02/2.py), [Haskell](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/02/2.hs)
-3 | [Binary Diagnostic](https://adventofcode.com/2021/day/3) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/days/03/3.py), [Haskell](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/03/3.hs)
+1 | [Sonar Sweep](https://adventofcode.com/2021/day/1) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/days/01/1.py), [Haskell](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/days/01/1.hs)
+2 | [Dive!](https://adventofcode.com/2021/day/2) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/days/02/2.py), [Haskell](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/days/02/2.hs)
+3 | [Binary Diagnostic](https://adventofcode.com/2021/day/3) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/days/03/3.py), [Haskell](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/days/03/3.hs)
 4 | [Giant Squid](https://adventofcode.com/2021/day/4) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/days/04/4.py)
 5 | [Hydrothermal Venture](https://adventofcode.com/2021/day/5) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/days/05/5.py)
 6 | [Lanternfish](https://adventofcode.com/2021/day/6) | [Python](https://github.com/rssbrrw/Advent-of-Code-2021/blob/main/days/06/6.py)
