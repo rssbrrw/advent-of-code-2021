@@ -1,4 +1,4 @@
-# :christmas_tree::calendar: [Advent of Code 2021](https://adventofcode.com/2021) :calendar::christmas_treeh
+# :christmas_tree::calendar: [Advent of Code 2021](https://adventofcode.com/2021) :calendar::christmas_tree:
 
 Day | Challenge | Solution(s)
 --- | --- | ---
